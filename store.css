@@ -1,0 +1,319 @@
+
+    body
+    {
+    font-family: 'poppins',sans-serif;
+    }
+    *
+    {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    } 
+    .header .logo img
+    {
+        width: 200px;
+        height: 50px;
+    }
+
+    .navbar
+    {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+    }
+    nav
+    {
+        flex: 1;
+        text-align: right;
+    }
+    nav ul
+    {
+        display: inline-block;
+        list-style-type: none;
+    }
+    nav ul li
+    {
+        display: inline-block;
+        margin-right: 20px;
+        font-family: comic sans ms;
+    }
+    a
+    {
+        text-decoration: none;
+        color: #555;
+    }
+    p
+    {
+        color: #555;
+    }
+    .container
+    {
+        max-width: 1300px;
+        margin: auto;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .row
+    {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .col-2
+    {
+        flex-basis: 50%;
+        min-width: 300px;
+    }
+    .col-2 img
+    {
+        max-width: 100%;
+        padding: 50px 0;  
+    }
+    .col-2 h1
+    {
+        font-size: 50px;
+        line-height: 60px;
+        margin: 25px 0;
+    }
+    .btn
+    {
+        display: inline-block;
+        background: black;
+        color:  red;
+        padding: 8px 30px;
+        margin: 30px 0;
+        border-radius: 30px;
+        transition: 0.5s;
+    }
+    .btn:hover
+    {
+        background: greenyellow;
+    }
+    .header
+    {
+        background:radial-gradient(greenyellow,#6a9133);
+    }
+    
+  
+    .header .row
+    {
+        margin-top: 70px;
+        
+    }
+    .categories
+    {
+        margin: 70px 0;
+    }
+    .col-3
+    {
+        flex-basis: 30%;
+        min-width: 250px;
+        margin-bottom: 30px;
+    }
+    .col-3 img
+    {
+        width: 100%;
+    }
+    .small-container
+    {
+        max-width: 1080px;
+        margin: auto;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .col-4
+    {
+        flex-basis: 25%;
+        padding: 10px;
+        min-width: 200px;
+        margin-bottom: 50px;
+    }
+    .col-4 img
+    {
+        width: 100%;
+       
+    }
+    .col-4 img:hover
+    {
+       /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+    
+    .title
+    {
+        text-align: center;
+        margin: 0 auto 80px;
+        position: relative;
+        line-height: 60px;
+        color: #555;
+    }
+    .title::after
+    {
+        content: '';
+        background: #ff523b;
+        width: 80px;
+        height: 5px;
+        border-radius: 5px;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    p
+    {
+        font-weight: bold;
+    }
+    .click
+    {
+        display: inline-block;
+        background: white;
+        color:  red;
+        padding: 8px 30px;
+        margin: 30px 0;
+        border-radius: 30px;
+        transition: 0.5s;
+        border: 1px solid black;
+    }
+    .click:hover
+    {
+        background-color: orange;
+    }
+    .header ul li a 
+    {
+        transition: 0.5s;
+        color: black;
+    }
+    ul li a:hover
+    {
+        color: red;
+    }
+    
+    .footer
+    {
+        background: rgb(22, 22, 22);
+        color: rgb(150, 150, 150);
+        font-size: 14px;
+        padding: 60px 0 20px;
+    
+    }
+    .footer p
+    {
+        color: rgb(150, 150, 150);
+    }
+    .footer h3{
+        color: #fff;
+        margin-bottom: 20px;
+    }
+    .footer-col-1,.footer-col-3,.footer-col-4
+    {
+        min-width: 250px;
+        margin-bottom: 20px;
+        
+    }
+    .footer-col-1
+    {
+        flex-basis: 30%;
+    }
+    
+    .footer-col-2
+    {
+        flex: 1;
+    }
+    .footer img
+    {
+        height: 170px;
+       width: 150px;
+    }
+    .footer h1 
+    {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: #fff;
+    }
+.footer ul li 
+    {
+        background: rgb(22, 22, 22);
+        transition: 0.5s;
+        font-size: 16px;
+        color: white;
+    }
+.footer ul li:hover
+    {
+       color: red;
+    }
+    .footer h3 
+    {
+       background:rgb(22, 22, 22) ;
+       transition: 0.5s;
+    }
+    .footer h3:hover
+    {
+        color:red;
+    }
+    .footer-col-2 h1
+    {
+        background: rgb(22, 22, 22);
+        transition: 0.5s;
+        margin-left: 40px;
+    }
+    .footer-col-2 h1:hover
+    {
+       color: red;
+    }
+   .footer-col-2 img
+   {
+    width: 250px;
+    height:200px;
+    margin-left: 50px;
+   }
+   .footer ul li a
+    {
+        background: rgb(22, 22, 22);
+        transition: 0.5s;
+        font-size: 16px;
+        color: white;
+    }
+    .footer ul li a:hover
+    {
+       color: red;
+    }
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 1px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: red; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
+}
